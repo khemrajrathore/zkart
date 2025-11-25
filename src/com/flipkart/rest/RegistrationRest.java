@@ -28,7 +28,7 @@ public class RegistrationRest {
 	{
 		BuyerRegistration br = new BuyerRegistration();
 		int status = br.saveBuyerInformation(user);
-		//Regular info
+		//Regular info  
 		return status;
 	}
 }
