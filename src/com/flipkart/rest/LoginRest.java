@@ -28,6 +28,7 @@ public class LoginRest {
 	public String loginCredentials(LoginBean user)
 	{
 		Login login = new Login();
+		// some info
 		String status = login.retrieveLoginCredential(user);
 		return status;
 	}
